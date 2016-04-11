@@ -16,5 +16,10 @@ namespace LabOOP2._2
             x = _x;
             y = _y;
         }
+
+        public override string ToString()
+        {
+            return x.ToString() + ' ' + y.ToString();
+        }
     }
 }
