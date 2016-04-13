@@ -16,6 +16,11 @@ namespace LabOOP2._2
 
             Threeangle T = new Threeangle(A, B, C);
             T.Show();
+
+            A a = new A(2);
+            B b = new B(2);
+            a.Method();
+            b.Method();
         }
     }
 }
